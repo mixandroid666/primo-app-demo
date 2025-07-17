@@ -8,11 +8,13 @@ This app retrieves XML data from Medium, converts it to JSON, and displays it on
 - Kotlin Coroutines for asynchronous programming
 - Hilt for dependency injection
 - Room Database for local data storage
+- JSoup for xml converter
+- Retrofit for network requests
 
-## Configulation
-- Android Studio Narwhal (or newer)
+## Configuration
 - JDK 11
 - Kotlin 2.1.21
 - Gradle 8.7
 - minSdk: 24
 - targetSdk: 35
+- compileSdk: 35
